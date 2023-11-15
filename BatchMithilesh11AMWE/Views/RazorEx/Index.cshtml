@@ -1,0 +1,30 @@
+﻿@model Employee
+
+<h1>Welcome to Razor Page</h1>
+@*
+@{
+    List<string> spt = new List<string>();
+    spt.Add("Cricket");
+    spt.Add("FootBall");
+    spt.Add("Tennis");
+    spt.Add("Batminton");
+    spt.Add("Hockey");
+    spt.Add("BaseBall");
+    <ol>
+    @foreach (string str in spt)
+    {
+       <li>@str</li>
+    }
+    </ol>
+}*@
+
+<h1>Employee Information</h1>
+ 
+<h1>@Model.EID</h1>
+<h1>@Model.Name</h1>
+<h1>@Model.Age</h1>
+<h1>@Model.City</h1>
+<h1>@Model.Salary</h1>
+
+
+

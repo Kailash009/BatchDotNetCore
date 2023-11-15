@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BatchMithilesh11AMWE.props" />
+</Project>

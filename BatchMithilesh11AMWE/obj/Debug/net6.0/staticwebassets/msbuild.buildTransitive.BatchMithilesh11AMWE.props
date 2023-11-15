@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BatchMithilesh11AMWE.props" />
+</Project>

@@ -1,0 +1,61 @@
+﻿@model School
+
+
+
+<h2>@TempData["email"]</h2>
+<h1 class="bg-dark text-center text-white"> SCHOOL INFORMATION </h1>
+
+<table class="table table-striped mt-4">
+    <tr>
+        <th colspan="4">School ID</th>
+        <th>@Model.School_Id</th>
+    </tr>
+    <tr>
+        <th colspan="4">School Name</th>
+        <th>@Model.School_Name</th>
+    </tr>
+    <tr>
+        <th colspan="4">School City</th>
+        <th>@Model.School_City</th>
+    </tr>
+        @foreach (var tch in Model.ListofTeachers)
+        {
+        <tr>
+            <td colspan="6"><h1 class="bg-warning text-center">List of Teacher</h1></td>
+        </tr>
+        <tr>
+            <th>TID</th>
+            <th>TName</th>
+            <th>TAge</th>
+            <th>TCity</th>
+            <th>TRole</th>
+            <th>TImg</th>
+        </tr>
+            <tr>
+                <td>@tch.tid</td>
+                <td>@tch.tName</td>
+                <td>@tch.tAge</td>
+                <td>@tch.tCity</td>
+                <td>@tch.tRole</td>
+                <td><img src="@tch.tImage" alt="Image" width="200px" height="200px" /></td>
+            </tr>
+        <tr><td colspan="6"><h1 class="bg-info text-center">List of Student</h1></td></tr>
+        <tr>
+            <th>SID</th>
+            <th>SNAME</th>
+            <th>SAGE</th>
+            <th>SMOBILE NO</th>
+            <th>SCITY</th>
+        </tr>
+        @foreach (var tech in tch.ListofStudents)
+        {
+        <tr>
+            <td>@tech.Sid</td>
+            <td>@tech.sName</td>
+            <td>@tech.sAge</td>
+            <td>@tech.Mobileno</td>
+            <td>@tech.sCity</td>
+        </tr>
+        }
+        }
+        </table>

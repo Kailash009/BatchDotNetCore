@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Employee>
+
+@*@{
+    Layout = null;
+}*@
+
+<h2>@TempData["email"]</h2>
+
+<h1 class="bg-dark text-center text-white">**Welcome to my Employee Home Page**</h1>
+
+<table class="table table-bordered bg-info">
+   
+    <tr>
+        <th>EID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>CITY</th>
+        <th>SALARY</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+    <tr>
+        <td>@emp.EID</td>
+        <td>@emp.Name</td>
+        <td>@emp.Age</td>
+        <td>@emp.City</td>
+        <td>@emp.Salary</td>
+    </tr>
+    }
+</table>

@@ -1,0 +1,25 @@
+﻿@model Employee
+
+<h1 class="bg-dark text-center text-white">Show Employee Record</h1>
+<table class="table table-bordered">
+    <tr>
+        <th><label asp-for="Name"></label> </th>
+        <th>@Model.Name</th>
+    </tr>
+    <tr>
+        <th>AGE</th>
+        <th>@Model.Age</th>
+    </tr>
+    <tr>
+        <th>CITY</th>
+        <th>@Model.City</th>
+    </tr>
+    <tr>
+        <th>SALARY</th>
+        <th>@Model.Salary</th>
+    </tr>
+    <tr>
+        <th>GENDER</th>
+        <th>@Model.Gender</th>
+    </tr>
+</table>

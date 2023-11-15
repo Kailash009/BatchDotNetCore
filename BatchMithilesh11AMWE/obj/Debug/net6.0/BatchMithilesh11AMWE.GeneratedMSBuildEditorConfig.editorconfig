@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BatchMithilesh11AMWE
+build_property.RootNamespace = BatchMithilesh11AMWE
+build_property.ProjectDir = E:\Kailash_Data\BatchMithilesh11AMWE\BatchMithilesh11AMWE\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = E:\Kailash_Data\BatchMithilesh11AMWE\BatchMithilesh11AMWE
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Employee/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Employee/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/FileUploadEx/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVVwbG9hZEV4XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/FileUploadEx/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZVVwbG9hZEV4XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/HelperExample/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscGVyRXhhbXBsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/HelperExample/ShowEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVscGVyRXhhbXBsZVxTaG93RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/RazorEx/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF6b3JFeFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/School/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Shared/_ValidationEx.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uRXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/StateMgt/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNZ3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/StateMgt/ReadCookie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNZ3RcUmVhZENvb2tpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/StateMgt/WriteCookie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVNZ3RcV3JpdGVDb29raWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/ValidationEx/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFsaWRhdGlvbkV4XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Kailash_Data/BatchMithilesh11AMWE/BatchMithilesh11AMWE/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-u7yoy0usj2

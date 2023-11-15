@@ -1,0 +1,12 @@
+﻿@model Employee
+
+
+
+<h2>@TempData["email"]</h2>
+<h1>***Read COOKIE***</h1>
+
+<form asp-controller="StateMgt" asp-action="ReadCookie" method="post">
+    <label asp-for="Name">Read Your Name</label>
+    <input type="text" asp-for="Name" value="@ViewBag.usrname" />
+    <button type="submit">Read Your Name from Cookie</button>
+</form>

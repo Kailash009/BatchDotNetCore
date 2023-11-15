@@ -1,0 +1,19 @@
+﻿@model IEnumerable<FileUpload>
+
+@Html.Raw(TempData["insert"])
+
+<h1>Welcome to Employee Page</h1>
+<table class="table table-bordered bg-info">
+    <tr>
+        <th>Employee Name</th>
+        <th>Employee Image</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.EmpName</td>
+            <td><img src="~/emp_image/@emp.EmpImg" height="200px" width="200px" alt="Img"/>  </td>
+        </tr>
+    }
+    
+</table>

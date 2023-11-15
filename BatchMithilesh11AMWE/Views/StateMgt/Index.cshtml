@@ -1,0 +1,34 @@
+﻿
+
+@*<h1>TempData = @TempData["test"] </h1>*@
+
+
+@*<h2>My Sports are:</h2>
+*@
+@*@{
+    <ul>
+        @foreach (var sport in (string[])ViewData["spt"])
+        {
+            <li>@sport</li>
+        }
+    </ul>
+}*@
+
+@*<h1>Show Employee Information </h1>
+
+@{
+    var emp = (Employee)ViewData["employee"];
+}
+<h2>ID=@emp.EID</h2>
+<h2>NAME=@emp.Name</h2>
+<h2>AGE=@emp.Age</h2>
+<h2>CITY=@emp.City</h2>
+<h2>SALARY=@emp.Salary</h2>*@
+
+
+
+
+
+
+
+

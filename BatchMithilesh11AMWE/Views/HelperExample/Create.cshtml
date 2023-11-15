@@ -1,0 +1,19 @@
+﻿@model Employee
+
+<h1>Tag HELPER</h1>
+
+<form asp-action="Create" asp-controller="HelperExample" method="post">
+    <label asp-for="Name"></label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <label asp-for="Age"></label>
+    <input type="text" asp-for="Age" class="form-control" />
+    <label asp-for="City"></label>
+    <input type="text" asp-for="City" class="form-control" />
+    <label asp-for="Salary"></label>
+    <input type="text" asp-for="Salary" class="form-control" />
+    <label asp-for="Gender"></label>
+    <input type="radio" asp-for="Gender" value="Male"/>Male
+    <input type="radio" asp-for="Gender" value="Female" />Female <br/>
+    <span asp-validation-for="Gender" class="text-danger"></span>
+    <button type="submit" class="btn btn-warning mt-3">Register</button>
+</form>
